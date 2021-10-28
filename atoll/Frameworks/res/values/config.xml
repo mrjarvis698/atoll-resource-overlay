@@ -44,7 +44,12 @@
 
     <!-- Enable 802.11ax for Wifi hotspot (SAP) -->
     <bool translatable="false" name="config_wifi_softap_ieee80211ax_supported">true</bool>
-   
+
+   <!-- Package names to use with vendor iwlan implementation. -->
+   <string name="config_wlan_data_service_package" translatable="false">vendor.qti.iwlan</string>
+   <string name="config_wlan_network_service_package" translatable="false">vendor.qti.iwlan</string>
+   <string name="config_qualified_networks_service_package" translatable="false">vendor.qti.iwlan</string>
+
     <!-- Built in display cutout -->
     <string translatable="false" name="config_mainBuiltInDisplayCutout">
       M 0,0
