@@ -1,0 +1,10 @@
+
+android_app {
+    name: "FrameworksResCommon",
+	manifest: "AndroidManifest.xml",
+    srcs: ["**/*.java"],
+    certificate: "platform",
+	resource_dirs: ["res"],
+	vendor: "true",
+    sdk_version: "current",
+}
